@@ -1,0 +1,107 @@
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  background-color: #19a2ae;
+  position: absolute;
+  overflow: hidden;
+  z-index: -10;
+}
+
+#background svg:first-child {
+  position: absolute;
+  right: 50vw;
+  bottom: 40vh;
+}
+
+#background svg:last-child {
+  position: absolute;
+  left: 50vw;
+  top: 40vh;
+}
+
+#card {
+  background-color: white;
+  position: absolute;
+  width: 350px;
+  height: 370px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+}
+
+#card div:first-child svg {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#card #content {
+  position: relative;
+  top: -50px;
+  background-color: white;
+}
+
+#img {
+  position: relative;
+  top: -50px;
+}
+
+#img img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+#personal-data {
+  padding-top: 1rem;
+  line-height: 1.3;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #dedede;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.font-sm {
+  font-size: 0.8rem;
+}
+
+#statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 30px 20px 30px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
